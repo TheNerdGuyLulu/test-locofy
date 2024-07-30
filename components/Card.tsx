@@ -8,7 +8,7 @@ export type CardType = {
 
 const Card = ({ title }: CardType) => {
   return (
-    <View style={styles.groupParent}>
+    <View style={styles.seedParent}>
       <View style={styles.seedParent}>
         <Text style={[styles.seed, styles.seedTypo]}>{title}</Text>
         <Text style={[styles.seedValueDetermines, styles.seedTypo]}>
